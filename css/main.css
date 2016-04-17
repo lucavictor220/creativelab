@@ -1,35 +1,28 @@
 header {
   background-image: url('../img/bk-image.jpg');
 }
-
 @media (min-width: 768px) {
   header .intro-text {
       padding-top: 455px;
       padding-bottom: 100px;
   }
 }
-
 .navbar-default .navbar-brand {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-
 header .intro-text {
   padding-top: 525px;
 }
-
 #about .section-heading.heading-about {
   padding: 25px;
 }
-
 #about .text-muted.text-about {
   max-width: 650px;
 }
-
 #services .container .task-container img {
   width: 108px;
   height: auto;
 }
-
 #services .container .task-container {
   display: flex;
   flex-direction: column;
@@ -38,31 +31,36 @@ header .intro-text {
   height: 400px;
   position: relative;
 }
-
 section {
   padding: 75px 0;
 }
-
 section h3.section-subheading {
   margin-bottom: 35px;
 }
-
 #services .container .task-container .header {
   margin: auto;
 }
-
 #services .container .task-container .text-content {
+  height: 200px;
   text-align: center;
 }
-
 #services .container .task-container .footer {
   margin: auto;
 }
-
 .btn.apply-button {
   width: 130px;
   height: 44px;
   background-color: #fed136;
   border: none;
   color: #fff;
+}
+.btn.apply-button:hover {
+  background-color: #fec503;
+}
+
+.team-member img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  border: 7px solid white;
 }
