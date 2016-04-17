@@ -57,10 +57,37 @@ section h3.section-subheading {
 .btn.apply-button:hover {
   background-color: #fec503;
 }
-
 .team-member img {
   width: 200px;
   height: auto;
   margin: 0 auto;
   border: 7px solid white;
+}
+section#parteneri img {
+  padding: 20px;
+  width: 170px;
+  height: auto;
+  margin: auto;
+}
+#parteneri .container .partner-heading {
+  padding: 35px;
+}
+#parteneri .container.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#portfolio {
+  display: flex;
+}
+#portfolio .portfolio-item {
+  display: flex;
+  width: 360px;
+  height: 300px;
+  margin: auto;
+}
+#portfolio img {
+  width: 340px;
+  height: auto;
+  margin: auto;
 }
