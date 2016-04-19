@@ -1,5 +1,6 @@
 header {
   background-image: url('../img/bk-image.jpg');
+  height: 100vh;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -10,9 +11,11 @@ header {
 .navbar-default .navbar-brand {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
+
 header .intro-text {
-  padding-top: 520px;
+  padding-top: 480px;
 }
+
 #about .section-heading.heading-about {
   padding: 25px;
 }
