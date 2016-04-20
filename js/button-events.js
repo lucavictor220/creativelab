@@ -1,4 +1,11 @@
 $(function() {
+  setSize();
+  $(window).resize(setSize);
+  function setSize() {
+    var current_height = $(window).height();
+    var padding_button = current_height / 100 * 75;
+    $('header .intro-text').css("padding-top", padding_button);
+  }
   $('#web-task').click(function() {
      window.open("applications/web.html");
   });

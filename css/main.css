@@ -4,18 +4,13 @@ header {
 }
 @media (min-width: 768px) {
   header .intro-text {
-      padding-top: 455px;
+      /* padding-top: 455px; */
       padding-bottom: 100px;
   }
 }
 .navbar-default .navbar-brand {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-
-header .intro-text {
-  padding-top: 480px;
-}
-
 #about .section-heading.heading-about {
   padding: 25px;
 }
@@ -60,25 +55,14 @@ section h3.section-subheading {
 .btn.apply-button:hover {
   background-color: #fec503;
 }
+.team-member {
+  height: 300px;
+}
 .team-member img {
   width: 200px;
   height: auto;
   margin: 0 auto;
   border: 7px solid white;
-}
-section#parteneri img {
-  padding: 20px;
-  width: 170px;
-  height: auto;
-  margin: auto;
-}
-#parteneri .container .partner-heading {
-  padding: 35px;
-}
-#parteneri .container.partners {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 #portfolio {
   display: flex;
@@ -94,32 +78,35 @@ section#parteneri img {
   height: auto;
   margin: auto;
 }
+section#parteneri img {
+  padding: 10px;
+  width: auto;
+  margin: auto;
+}
+#parteneri .container .partner-heading {
+  padding: 35px;
+}
+#parteneri .container.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 #parteneri .logo {
   display: flex;
-  width: 160px;
-  height: 180px;
-  padding: 15px;
+  height: 200px;
   margin: 8px;
 }
 #parteneri .logo a {
   margin: auto;
 }
-#parteneri .logo.special {
-  width: 250px;
-  height: 250px;
-  padding: 0px;
-}
 #parteneri .logo.special img {
-  width: 250px;
   height: auto;
   padding: 0px;
 }
 #parteneri .logo.general {
-  width: 250px;
   height: 250%;
 }
 #parteneri .logo.general img {
-  width: 250px;
   height: auto;
   padding: 0px;
 }
