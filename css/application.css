@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0px;
   height: 100%;
 }
@@ -6,4 +6,24 @@ iframe {
   width: 100%;
   min-height: 100%;
   position: fixed;
+}
+#closed {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+.card {
+  margin: auto;
+  background-color: #fff;
+  padding-top: 20px;
+}
+.space {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 40px;
+}
+.space-button {
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
