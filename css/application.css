@@ -11,7 +11,6 @@ iframe {
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: #eeeeee;
 }
 .card {
   margin: auto;
@@ -26,4 +25,47 @@ iframe {
 .space-button {
   padding-top: 70px;
   padding-bottom: 50px;
+}
+.btn-xm {
+  color: #ffffff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+.btn-xm:hover,
+.btn-xm:focus,
+.btn-xm:active,
+.btn-xm.active,
+.open .dropdown-toggle.btn-xm {
+  color: #ffffff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+.btn-xm:active,
+.btn-xm.active,
+.open .dropdown-toggle.btn-xm {
+  background-image: none;
+}
+.btn-xm.disabled,
+.btn-xm[disabled],
+fieldset[disabled] .btn-xm,
+.btn-xm.disabled:hover,
+.btn-xm[disabled]:hover,
+fieldset[disabled] .btn-xm:hover,
+.btn-xm.disabled:focus,
+.btn-xm[disabled]:focus,
+fieldset[disabled] .btn-xm:focus,
+.btn-xm.disabled:active,
+.btn-xm[disabled]:active,
+fieldset[disabled] .btn-xm:active,
+.btn-xm.disabled.active,
+.btn-xm[disabled].active,
+fieldset[disabled] .btn-xm.active {
+  background-color: #fed136;
+  border-color: #fed136;
 }

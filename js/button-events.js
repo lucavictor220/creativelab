@@ -18,4 +18,7 @@ $(function() {
   $('#3d-task').click(function() {
      window.open("applications/3_D.html");
   })
+  $('.application-closed').click(function() {
+    window.open("applications/closed.html");
+  });
 });
